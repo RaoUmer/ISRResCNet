@@ -31,7 +31,7 @@ The code will be released soon...
 Average PSNR/SSIM values for scale factors x2, x3, and x4 with the bicubic degradation model. The best performance is shown in **red** and the second best
 performance is shown in **blue**.
 <p align="center">
-  <img height="250" src="figs/quant_res.png">
+  <img height="250" src="figs/quant_res.PNG">
 </p>
 
 ## Visual Results
