@@ -24,18 +24,18 @@ The code will be released soon...
 
 #### ERD block
 <p align="center">
-  <img height="200" src="figs/rescnet.png">
+  <img height="150" src="figs/rescnet.png">
 </p>
 
 ## Quantitative Results
 Average PSNR/SSIM values for scale factors x2, x3, and x4 with the bicubic degradation model. The best performance is shown in **red** and the second best
 performance is shown in **blue**.
 <p align="center">
-  <img height="250" src="figs/quant_res.PNG">
+  <img height="200" src="figs/quant_res.PNG">
 </p>
 
 ## Visual Results
-Visual comparison of our method with other state-of-the-art methods on x4 super-resolution. For visual comparison on the benchmarks, you can download our results from the Google Drive: [ISRResCNet]().
+Visual comparison of our method with other state-of-the-art methods on the x4 super-resolution over the SR benchmarks. For visual comparison on the benchmarks, you can download our results from the Google Drive: [ISRResCNet](https://drive.google.com/drive/folders/1IioErwfd1cjfBMBOjUzH1guWuI-iZzFm?usp=sharing).
 <p align="center">
   <img height="250" src="figs/res1.png">
 </p>
