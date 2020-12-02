@@ -19,7 +19,7 @@ The code will be released soon...
 ## ISRResCNet Architecture
 #### Overall Representative diagram
 <p align="center">
-  <img height="250" src="figs/isrrescnet.png">
+  <img height="250" src="figs/isrrescnet.gif">
 </p>
 
 #### ERD block
