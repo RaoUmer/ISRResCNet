@@ -63,3 +63,6 @@ Visual comparison of our method with other state-of-the-art methods on the x4 su
 <p align="center">
   <img height="250" src="figs/res2.png">
 </p>
+
+## Code Acknowledgement
+The training codes is based on [ResDNet](https://github.com/cig-skoltech/burst-cvpr-2019) and [deep_demosaick](https://github.com/cig-skoltech/deep_demosaick).
