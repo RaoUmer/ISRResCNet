@@ -23,7 +23,6 @@ model = ResFBNet(depth=5)
 model = ISRResCNet(model, max_iter=10, sigma_max=2, sigma_min=1)
 states = torch.load(model_path)
 model.load_state_dict(states['model_state_dict'])
-#model.load_state_dict(torch.load(model_path))
 model.eval()
 model = model.to(device)
 
