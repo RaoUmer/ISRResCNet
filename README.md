@@ -17,7 +17,24 @@ Deep convolutional neural networks (CNNs) have recently achieved great success f
                   }
 
 ## Quick Test
-The code will be released soon...
+#### Dependencies
+- [Python 3.7](https://www.anaconda.com/distribution/) (version >= 3.0)
+- [PyTorch >= 1.0](https://pytorch.org/) (CUDA version >= 8.0 if installing with CUDA.)
+- Python packages:  `pip install numpy opencv-python`
+
+#### Test models
+1. Clone this github repository as the following commands: 
+```
+git clone https://github.com/RaoUmer/ISRResCNet
+cd ISRResCNet
+cd isrrescnet_code_demo
+```
+2. Place your own **low-resolution images** in the `./isrrescnet_code_demo/LR` folder. (There are two sample images i.e. set5_img_butterfly_x4 and urban100_img_092_x4). 
+3. Run the test by the provided script `test_isrrescnet.py`.
+```
+python test_isrrescnet.py       
+```
+4. The SR results are in the `./isrrescnet_code_demo/sr_results` folder.
 
 ## ISRResCNet Architecture
 #### Overall Representative diagram
