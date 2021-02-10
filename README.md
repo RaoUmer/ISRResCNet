@@ -17,6 +17,9 @@ Deep convolutional neural networks (CNNs) have recently achieved great success f
                   }
 
 ## Quick Test
+
+This model can be run on arbitrary images with a Docker image hosted on Replicate: https://beta.replicate.ai/RaoUmer/ISRResCNet. Below are instructions for how to run the model without Docker:
+
 #### Dependencies
 - [Python 3.7](https://www.anaconda.com/distribution/) (version >= 3.0)
 - [PyTorch >= 1.0](https://pytorch.org/) (CUDA version >= 8.0 if installing with CUDA.)
