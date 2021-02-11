@@ -44,7 +44,8 @@ for path_lr in glob.glob(test_img_folder):
     
     # initially upscale the LR image
     p = Super_Resolution(img_LR, scale=upscale_factor, mode='bicubic')
-    p.cuda_()
+    p.cuda_()    # run on GPU 
+    #p.cpu_()    # run on CPU
     
     # testing
     t = timer()
