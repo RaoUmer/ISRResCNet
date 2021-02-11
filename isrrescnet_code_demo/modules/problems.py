@@ -235,6 +235,12 @@ class Super_Resolution(Problem):
         self.L = self.L.cuda()
         if  self.k is not None:
             self.k = self.k.cuda()
+            
+    def cpu_(self):
+        self.y = self.y.cpu()
+        self.L = self.L.cpu()
+        if  self.k is not None:
+            self.k = self.k.cpu()
 
 if __name__ == "__main__":
     for i in range(5):
