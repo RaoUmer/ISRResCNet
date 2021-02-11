@@ -83,7 +83,10 @@ class FeedbackBlock(nn.Module):
         
     def forward(self, x):
         if self.should_reset:
-            self.last_hidden = torch.zeros(x.size()).cuda()
+            if x.is_cuda:
+                self.last_hidden = torch.zeros(x.size()).cuda()
+            else: 
+                self.last_hidden = torch.zeros(x.size())
             self.last_hidden.copy_(x)
             self.should_reset = False
 
