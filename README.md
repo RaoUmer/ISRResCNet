@@ -3,6 +3,10 @@
 
 An official PyTorch implementation of the [ISRResCNet](https://github.com/RaoUmer/ISRResCNet) network as described in the paper **[Deep Iterative Residual Convolutional Network for Single Image Super-Resolution](https://arxiv.org/abs/2009.04809)** which is published in the 25th International Conference of Pattern Recognition (ICPR), 2020.
 
+✨ _**Visual examples**_:
+
+[<img src="figs/vis_res1.PNG" width="350px"/>](https://imgsli.com/NDg4ODY) [<img src="figs/vis_res2.PNG" width="520px"/>](https://imgsli.com/NDg4ODc)
+
 #### Abstract
 > Deep convolutional neural networks (CNNs) have recently achieved great success for single image super-resolution (SISR) task due to their powerful feature representation capabilities. The most recent deep learning based SISR methods focus on  designing deeper / wider models to learn the non-linear mapping between low-resolution (LR) inputs and high-resolution (HR) outputs. These existing SR methods do not take into account the image observation (physical) model and thus require a large number of network's trainable parameters with a great volume of training data. To address these issues, we propose a deep Iterative Super-Resolution Residual Convolutional Network (ISRResCNet) that exploits the powerful image regularization and large-scale optimization techniques by training the deep network in an iterative manner with a residual learning approach. Extensive experimental results on various super-resolution benchmarks demonstrate that our method with a few trainable parameters improves the results for different scaling factors in comparison with the state-of-art methods.
 
