@@ -6,6 +6,16 @@ An official PyTorch implementation of the [ISRResCNet](https://github.com/RaoUme
 ✨ _**Visual examples**_:
 
 [<img src="figs/vis_res1.PNG" width="330px"/>](https://imgsli.com/NDg4ODY) [<img src="figs/vis_res2.PNG" width="490px"/>](https://imgsli.com/NDg4ODc)
+___________
+
+* [Abstract](#abstract)
+* [Oral Presentation Video](#oral-presentation-video)
+* [Citation](#bibtex)
+* [Quick Test](#quick-test)
+* [ISRResCNet Architecture](#isrrescnet-architecture)
+* [Quantitative Results](#quantitative-results)
+* [Visual Results](#visual-results)
+* [Code Acknowledgement](#code-acknowledgement)
 
 #### Abstract
 > Deep convolutional neural networks (CNNs) have recently achieved great success for single image super-resolution (SISR) task due to their powerful feature representation capabilities. The most recent deep learning based SISR methods focus on  designing deeper / wider models to learn the non-linear mapping between low-resolution (LR) inputs and high-resolution (HR) outputs. These existing SR methods do not take into account the image observation (physical) model and thus require a large number of network's trainable parameters with a great volume of training data. To address these issues, we propose a deep Iterative Super-Resolution Residual Convolutional Network (ISRResCNet) that exploits the powerful image regularization and large-scale optimization techniques by training the deep network in an iterative manner with a residual learning approach. Extensive experimental results on various super-resolution benchmarks demonstrate that our method with a few trainable parameters improves the results for different scaling factors in comparison with the state-of-art methods.
@@ -64,7 +74,7 @@ performance is shown in **blue**.
 </p>
 
 ## Visual Results
-Visual comparison of our method with other state-of-the-art methods on the x4 super-resolution over the SR benchmarks. For visual comparison on the benchmarks, you can download our results from the Google Drive: [ISRResCNet](https://drive.google.com/drive/folders/1IioErwfd1cjfBMBOjUzH1guWuI-iZzFm?usp=sharing).
+Visual comparison of our method with other state-of-the-art methods on the x4 super-resolution over the SR benchmarks. For visual comparison on the benchmarks, you can download our results from the Google Drive: [ISRResCNet](https://drive.google.com/drive/folders/1IioErwfd1cjfBMBOjUzH1guWuI-iZzFm?usp=sharing). 
 <p align="center">
   <img height="250" src="figs/res1.png">
 </p>
